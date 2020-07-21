@@ -1,4 +1,4 @@
-import React, {useEffect,useState,Component} from "react";
+import React, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WeatherIcon from './components/weatherIcon.js';
 import "./App.css";
