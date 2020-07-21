@@ -18,7 +18,7 @@ export default class App extends Component {
 
   currentWeather = async(lat,lon)=>{
     const api = "92fd1b05cf013755d82cb831f5a0ed6b"
-    let url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&apiKey=${api}&units=metric`
+    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&apiKey=${api}&units=metric`
     let data = await fetch (url)
     let result = await data.json();
 
